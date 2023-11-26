@@ -18,16 +18,16 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
 
         public EditCustomerDiscountCommand GetDetails(long id)
         {
-            var query =  _context.CustomerDiscounts
+            var query = _context.CustomerDiscounts
                 .Select(x => new EditCustomerDiscountCommand
-            {
-                Id = id,
-                ProductId = x.ProductId,
-                DiscountRate = x.DiscountRate,
-                DiscountReason = x.DiscountReason,
-                EndDate = x.EndDate.ToString(),
-                StartDate = x.StartDate.ToString(),
-            }).FirstOrDefault(x => x.Id == id);
+                {
+                    Id = x.Id,
+                    ProductId = x.ProductId,
+                    DiscountRate = x.DiscountRate,
+                    DiscountReason = x.DiscountReason,
+                    EndDate = x.EndDate.ToString(),
+                    StartDate = x.StartDate.ToString(),
+                }).FirstOrDefault(x => x.Id == id);
 
             return query;
         }
@@ -36,8 +36,8 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
         {
             var products = _shopContext.Products.Select(x => new
             {
-                x.Id ,
-                x.Name ,
+                x.Id,
+                x.Name,
 
             }).ToList();
             var query = _context.CustomerDiscounts.Select(x => new CustomerDiscountViewModel
@@ -47,10 +47,10 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 DiscountRate = x.DiscountRate,
                 DiscountReason = x.DiscountReason,
 
-                EndDate = x.EndDate.ToString(),
+                EndDate = x.EndDate.ToFarsi(),
                 EndTimeGr = x.EndDate,
 
-                StartDate = x.StartDate.ToString(),
+                StartDate = x.StartDate.ToFarsi(),
                 StartDateGr = x.StartDate,
                 CreationDate = x.CreationDate.ToFarsi(),
 
@@ -71,9 +71,10 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
 
 
 
-            var discounts =  query.OrderByDescending(x => x.Id).ToList();
+            var discounts = query.OrderByDescending(x => x.Id).ToList();
             discounts.ForEach(x =>
-                x.Product = products.FirstOrDefault(z =>
+                x.Product = products
+                    .FirstOrDefault(z =>
                     z.Id == x.ProductId)?.Name);
 
             return discounts;

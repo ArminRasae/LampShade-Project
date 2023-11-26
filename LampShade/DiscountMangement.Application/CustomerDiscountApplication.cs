@@ -40,7 +40,7 @@ namespace DiscountManagement.Application
                 operation.Failed(ApplicationMessages.RecordNotFound);
 
             if (_customerDiscountRepository.Exists(x =>
-                    x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate && x.Id == command.Id))
+                    x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate && x.Id != command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             customerDiscount!.Edit(command.ProductId, command.DiscountRate, command.StartDate.ToGeorgianDateTime(),
