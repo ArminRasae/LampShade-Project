@@ -1,6 +1,4 @@
 ﻿
-
-using System.Dynamic;
 using System.Linq.Expressions;
 
 namespace _0_Framework.Domain

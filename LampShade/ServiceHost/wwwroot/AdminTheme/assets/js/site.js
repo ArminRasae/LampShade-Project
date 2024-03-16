@@ -44,14 +44,13 @@ $(document).ready(function () {
     $(document).on("submit",
         'form[data-ajax="true"]',
         function (e) {
-            e.preventDefault();
+            e.preventDefault(); 
             var form = $(this);
             const method = form.attr("method").toLocaleLowerCase();
             const url = form.attr("action");
             var action = form.attr("data-action");
-
+            const data = form.serializeArray();
             if (method === "get") {
-                const data = form.serializeArray();
                 $.get(url,
                     data,
                     function (data) {
@@ -87,8 +86,7 @@ function CallBackHandler(data, action, form) {
         case "Refresh":
             if (data.isSucceeded) {
                 window.location.reload();
-            }
-            else {
+            } else {
                 alert(data.message);
             }
             break;
@@ -193,15 +191,15 @@ jQuery.validator.addMethod("maxFileSize",
     });
 jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
-//jQuery.validator.addMethod("maxFileSize",
-//    function (value, element, params) {
-//        var size = element.files[0].size;
-//        var maxSize = 3 * 1024 * 1024;
-//        debugger;
-//        if (size > maxSize)
-//            return false;
-//        else {
-//            return true;
-//        }
-//    });
-//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+jQuery.validator.addMethod("maxFileSize",
+    function (value, element, params) {
+        var size = element.files[0].size;
+        var maxSize = 0 * 1024 ;
+        debugger;
+        if (size > maxSize)
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");

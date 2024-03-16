@@ -16,10 +16,6 @@ namespace ShopManagement.Infrastructure.EFCore
         public DbSet<Slide> Slides { get; set; }
 
 
-
-
-       
-
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
 

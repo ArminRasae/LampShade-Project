@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IMSLP.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "IMSLP.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "IMSLP.Domain.dll": {}
+        }
+      },
+      "0_Framework/1.0.0": {
+        "runtime": {
+          "0_Framework.dll": {}
+        }
+      },
+      "IMSLP.Application.Contracts/1.0.0": {
+        "runtime": {
+          "IMSLP.Application.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IMSLP.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IMSLP.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

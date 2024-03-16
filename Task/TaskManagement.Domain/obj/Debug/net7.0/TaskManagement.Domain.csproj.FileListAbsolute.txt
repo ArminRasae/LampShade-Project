@@ -1,0 +1,15 @@
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\bin\Debug\net7.0\TaskManagement.Domain.deps.json
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\bin\Debug\net7.0\TaskManagement.Domain.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\bin\Debug\net7.0\TaskManagement.Domain.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.AssemblyInfo.cs
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\refint\TaskManagement.Domain.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\ref\TaskManagement.Domain.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\bin\Debug\net7.0\TaskManagement.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\bin\Debug\net7.0\TaskManagement.Application.Contracts.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Domain\obj\Debug\net7.0\TaskManagement.Domain.csproj.CopyComplete

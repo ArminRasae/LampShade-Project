@@ -1,0 +1,128 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Accounts.Account.ListModel
+
+
+
+@{
+    // Layout = "Shared/_AdminLayout";
+    ViewData["title"] = "مدیریت کاربران";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h2 class="page-title pull-right">@ViewData["title"]</h2>
+        <p class="pull-left">
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./List","Create")">ایجاد کاربر جدید</a>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">جستجو در  کاربران</h3>
+            </div>
+            <div class="panel-body">
+                <form class="form-inline" role="form" method="get">
+                  
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.UserName" ></label>
+                        <input class="form-control" asp-for="SearchModel.UserName" placeholder="نام کاربری " />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.FullName"></label>
+                        <input class="form-control" asp-for="SearchModel.FullName" placeholder="نام و نام خانوادگی "/>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.Phone"></label>
+                        <input class="form-control" asp-for="SearchModel.Phone" placeholder="شماره موبایل"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.RoleId"></label>
+                        <select class="form-control" asp-for="SearchModel.RoleId" asp-items="Model.RolesItem">
+                            <option value="">نقش...</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
+                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./List">مشاهده همه</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="ProductCategoriesDiv">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">لیست کاربران(@Model.AccountView.Count)</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <table id="datatable" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>شماره محصول</th>
+                                    <th>عکس</th>
+                                    <th>نام و نام خانوادگی</th>
+                                    <th>نام کاربری </th>
+                                    <th>شماره تلفن</th>
+                                    <th>نقش</th>
+                                    <th>تاریخ ثبت نام</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.AccountView)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>
+                                            <img src="~/uploadedFiles/@item.ProfilePhoto" style="width: 70px; height: 70px" />
+                                        </td>
+                                        <td>@item.FullName</td>
+                                        <td>@item.UserName</td>
+                                        <td>@item.Phone</td>
+                                        <td>@item.Role</td>
+                                        <td>@item.CreationDate</td>
+                                        <td>
+                                            <div  style="display:flex; width:225px">
+                                                <a class="btn btn-warning btn-custom waves-effect waves-light m-b-5" href="#showmodal=@Url.Page("./List", "Edit", new { id = @item.Id })">
+
+                                                    <i class="fa fa-edit "></i>ویرایش
+                                                </a>
+                                            </div>
+                                            <div  style="display:flex; width:225px">
+                                                <a class="btn btn-primary btn-custom waves-effect waves-light m-b-5" href="#showmodal=@Url.Page("./List", "ChangePassword", new { id = @item.Id })">
+
+                                                    <i class="fa fa-key "></i>تغییر رمز عبور
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable').dataTable();
+        });
+    </script>
+}

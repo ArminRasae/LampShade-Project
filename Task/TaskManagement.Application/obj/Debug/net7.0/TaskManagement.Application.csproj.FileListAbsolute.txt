@@ -1,0 +1,17 @@
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.deps.json
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Domain.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.Contracts.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Domain.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.AssemblyInfo.cs
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.CopyComplete
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\refint\TaskManagement.Application.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application\obj\Debug\net7.0\ref\TaskManagement.Application.dll

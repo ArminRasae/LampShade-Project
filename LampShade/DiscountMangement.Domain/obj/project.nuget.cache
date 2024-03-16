@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pRmQONK5yEwgFYMfsk4gwEd0PGOtPj/FGHpAOqyH1rAoNuWNRQAvXr012K+F/H/+cSK6EZ8OfG64ilopjLtJTA==",
+  "dgSpecHash": "sUDKKmPQZyWOGSGQIQO9O3mvmPJCeMWBrR+lIjw6b0kCTpId1Vp9nUnXtRD4GO9n44fRkE+h2fsyrCFwP1MNVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\LampShade\\DiscountMangement.Domain\\DiscountManagement.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Armin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
@@ -14,7 +15,8 @@
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\Armin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "C:\\Users\\Armin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Armin\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

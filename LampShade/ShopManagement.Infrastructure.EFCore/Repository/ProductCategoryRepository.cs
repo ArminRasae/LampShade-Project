@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-using System.Security.Cryptography.X509Certificates;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using ShopManagement.Application.Contracts.ProductCategoryApp;
 using ShopManagement.Domain.ProductCategoryAgg;
 using _0_Framework.Infrastructure;
@@ -22,11 +20,10 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             var query = _context.ProductCategories.Select(x => new EditProductCategoryCommand
             {
                 Id = x.Id,
-
                 Name = x.Name,
                 Description = x.Description,
                 PictureTitle = x.PictureTitle,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,

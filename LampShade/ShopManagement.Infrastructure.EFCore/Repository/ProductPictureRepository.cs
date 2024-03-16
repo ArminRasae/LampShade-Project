@@ -27,7 +27,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 
             }).FirstOrDefault(x => x.Id == id);
 
-         return query!;
+            return query!;
 
         }
 

@@ -1,0 +1,12 @@
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\bin\Debug\net8.0\IMSLP.Application.Contracts.deps.json
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\bin\Debug\net8.0\IMSLP.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\bin\Debug\net8.0\IMSLP.Application.Contracts.pdb
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.AssemblyInfo.cs
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.sourcelink.json
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\refint\IMSLP.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\IMSLP.Application.Contracts.pdb
+C:\Users\Armin\source\repos\Armin\Code\IMSLP\IMSLP.Application.Contracts\obj\Debug\net8.0\ref\IMSLP.Application.Contracts.dll

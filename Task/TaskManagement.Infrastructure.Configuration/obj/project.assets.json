@@ -1,0 +1,209 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "TaskManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TaskManagement.Application.Contracts": "1.0.0",
+          "TaskManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Application.dll": {}
+        }
+      },
+      "TaskManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TaskManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Application.Contracts.dll": {}
+        }
+      },
+      "TaskManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TaskManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Domain.dll": {}
+        }
+      },
+      "TaskManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TaskManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "TaskManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Application/TaskManagement.Application.csproj",
+      "msbuildProject": "../TaskManagement.Application/TaskManagement.Application.csproj"
+    },
+    "TaskManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Application.Contracts/TaskManagement.Application.Contracts.csproj",
+      "msbuildProject": "../TaskManagement.Application.Contracts/TaskManagement.Application.Contracts.csproj"
+    },
+    "TaskManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Domain/TaskManagement.Domain.csproj",
+      "msbuildProject": "../TaskManagement.Domain/TaskManagement.Domain.csproj"
+    },
+    "TaskManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj",
+      "msbuildProject": "../TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.0",
+      "TaskManagement.Application >= 1.0.0",
+      "TaskManagement.Domain >= 1.0.0",
+      "TaskManagement.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Armin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Infrastructure.Configuration\\TaskManagement.Infrastructure.Configuration.csproj",
+      "projectName": "TaskManagement.Infrastructure.Configuration",
+      "projectPath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Infrastructure.Configuration\\TaskManagement.Infrastructure.Configuration.csproj",
+      "packagesPath": "C:\\Users\\Armin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Infrastructure.Configuration\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Armin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Application\\TaskManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Application\\TaskManagement.Application.csproj"
+            },
+            "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
+            },
+            "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

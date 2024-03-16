@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kmP1sGlpR5j6x0MMSw+HUqermFLAPhZjxeyA2LKGwAgQuTHAvTSWxlPkX5VGfqb+Rd+0r9E7wK0GNba0j1UVUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Armin\\source\\repos\\Armin\\Code\\Task\\TaskManagement.Infrastructure.Configuration\\TaskManagement.Infrastructure.Configuration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Armin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

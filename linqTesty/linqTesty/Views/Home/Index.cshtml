@@ -1,0 +1,34 @@
+﻿@model IGrouping<string,Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<table>
+    <thead>
+    <tr>
+        <th>Category</th>
+        <th>Product Names</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var group in ViewData["GroupedProducts"] as List<IGrouping<string, Product>>)
+    {
+        <tr>
+            <td>@group.Key</td>
+            <td>
+                @foreach (var productName in ViewData["ProductNames"] as List<string>)
+                {
+                        <span>@productName</span>
+                    
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+

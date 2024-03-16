@@ -1,0 +1,11 @@
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\bin\Debug\net7.0\TaskManagement.Application.Contracts.deps.json
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\bin\Debug\net7.0\TaskManagement.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\bin\Debug\net7.0\TaskManagement.Application.Contracts.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\TaskManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\TaskManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\TaskManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\TaskManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\TaskManagement.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\refint\TaskManagement.Application.Contracts.dll
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\TaskManagement.Application.Contracts.pdb
+C:\Users\Armin\source\repos\Armin\Code\Task\TaskManagement.Application.Contracts\obj\Debug\net7.0\ref\TaskManagement.Application.Contracts.dll

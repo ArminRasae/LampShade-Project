@@ -1,6 +1,7 @@
 ﻿
 using _0_Framework.Domain;
 using System.Xml.Linq;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Domain.ProductCategoryAgg

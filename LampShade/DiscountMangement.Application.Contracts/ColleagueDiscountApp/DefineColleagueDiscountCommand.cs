@@ -6,7 +6,7 @@ namespace DiscountManagement.Application.Contracts.ColleagueDiscountApp
     {
         public long ProductId { get; set; }
         public int DiscountRate { get; set; }
-        public List<ProductViewModel> ProductsItem { get; private set; }
+        public List<ProductViewModel> ProductsItem { get;  set; }
 
     }
 }

@@ -39,16 +39,19 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 x.Id,
                 x.Name,
             }).ToList();
+
             var query = _context.ColleagueDiscounts
                 .Select(x => new ColleagueDiscountViewModel
                 {
+                    Id = x.Id,
                     ProductId = x.ProductId,
                     DiscountRate = x.DiscountRate,
                     CreationDate = x.CreationDate.ToFarsi(),
+                    IsRemoved = x.IsRemoved,
 
                 });
 
-            if (searchModel.ProductId != null)
+            if (searchModel.ProductId > 0)
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
 
             var discounts = query.OrderByDescending(x => x.Id).ToList();

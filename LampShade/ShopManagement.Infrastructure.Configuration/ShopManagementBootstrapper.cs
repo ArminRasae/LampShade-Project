@@ -1,5 +1,4 @@
-﻿
-using _01_LampShadeQuery.Contracts.ProductCategory;
+﻿using _01_LampShadeQuery.Contracts.ProductCategory;
 using _01_LampShadeQuery.Contracts.Slide;
 using _01_LampShadeQuery.Query;
 using Microsoft.EntityFrameworkCore;

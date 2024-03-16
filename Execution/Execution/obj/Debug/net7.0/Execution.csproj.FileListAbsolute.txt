@@ -1,0 +1,14 @@
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\bin\Debug\net7.0\Execution.exe
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\bin\Debug\net7.0\Execution.deps.json
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\bin\Debug\net7.0\Execution.runtimeconfig.json
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\bin\Debug\net7.0\Execution.dll
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\bin\Debug\net7.0\Execution.pdb
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.AssemblyInfoInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.AssemblyInfo.cs
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.csproj.CoreCompileInputs.cache
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.dll
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\refint\Execution.dll
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.pdb
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\Execution.genruntimeconfig.cache
+C:\Users\Armin\source\repos\Armin\Code\Execution\Execution\obj\Debug\net7.0\ref\Execution.dll

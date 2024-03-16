@@ -1,0 +1,34 @@
+﻿@page
+@model ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1><a href="https://rirais.com/">Rira </a>Company Task</h1>
+
+<h2>Category One Products</h2>
+@foreach (var product in Model.Category1Products)
+{
+    <p>@product.Id - @product.Name - @product.Category - @product.Price</p>
+}
+
+<h2>Highest Priced Product</h2>
+<p>@Model.HighestPricedProduct.Id | @Model.HighestPricedProduct.Name | @Model.HighestPricedProduct.Category | @Model.HighestPricedProduct.Price</p>
+
+<h2>Total Price</h2>
+<p>@Model.TotalPrice</p>
+
+<h2>Grouped Products</h2>
+@foreach (var group in Model.GroupedProducts)
+{
+    <h3>@group.Key</h3>
+    @foreach (var product in group)
+    {
+        <p>@product.Id - @product.Name - @product.Category - @product.Price</p>
+    }
+}
+
+<h2>Average Price</h2>
+<p>@Model.AveragePrice</p>
+
+
